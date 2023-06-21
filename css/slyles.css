@@ -1,0 +1,226 @@
+/**
+  |============================
+  | General styles
+  |============================
+*/
+:root {
+  --bgcl-general: #ffffff;
+  --popular-text-cl: #434455;
+  --btn-cl: #4d5ae5;
+  --btn-bg-cl: #f4f4fd;
+  --title-cl: #2e2f42;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: var(--bgcl-general);
+  letter-spacing: 0.02em;
+  color: var(--popular-text-cl);
+}
+
+.title-block {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  color: var(--title-cl);
+}
+
+.title-section {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-cl);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+/**
+  |============================
+  | Header styles
+  |============================
+*/
+.web {
+  color: #4d5ae5;
+}
+
+.dark-studio {
+  color: #2e2f42;
+}
+
+.nav-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.nav-list:hover,
+.nav-list:focus {
+  color: #404bbf;
+}
+.adress {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.adress-list {
+  color: #434455;
+}
+
+.adress-list:hover,
+.adress-list:focus {
+  color: #404bbf;
+}
+
+/**
+  |============================
+  | Styles section hero
+  |============================
+*/
+.hero {
+  background-color: #2e2f42;
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.hero-btn {
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: #4d5ae5;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404bbf;
+  cursor: pointer;
+}
+
+/**
+  |============================
+  | Styles future
+  |============================
+*/
+
+.text-future {
+  letter-spacing: 0.02em;
+}
+
+/**
+  |============================
+  | What doing
+  |============================
+*/
+.title-do {
+  text-transform: capitalize;
+}
+/**
+  |============================
+  | Styles section team
+  |============================
+*/
+.team {
+  background-color: #f4f4fd;
+}
+.title-team {
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+}
+.text-team {
+  text-align: center;
+}
+
+.list-title {
+  background-color: #ffffff;
+}
+/**
+  |============================
+  | Styles footer
+  |============================
+*/
+.footer {
+  background-color: #2e2f42;
+}
+
+.light-studio {
+  color: #f4f4fd;
+}
+
+.text-footer {
+  color: #f4f4fd;
+}
+
+/**
+  |============================
+  | Styles portfolio
+  |============================
+*/
+
+.portfolio-btn {
+  font-family: "Roboto", sans-serif;
+  color: var(--btn-cl);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: var(--btn-bg-cl);
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+  cursor: pointer;
+}
+
+.portfolio-title {
+  font-family: "Roboto", sans-serif;
+  color: var(--title-cl);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.portfolio-text {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--popular-text-cl);
+}
