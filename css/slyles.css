@@ -55,6 +55,14 @@ body {
   text-transform: uppercase;
 }
 
+.container {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
 /**
   |============================
   | Header styles
@@ -94,6 +102,21 @@ body {
 .adress-list:hover,
 .adress-list:focus {
   color: #404bbf;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+}
+.nav-list-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 
 /**
