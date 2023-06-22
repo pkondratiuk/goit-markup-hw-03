@@ -12,6 +12,11 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet" />
 
+    <!-- Normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css" />
+
     <!-- Styles -->
     <link rel="stylesheet" href="./css/slyles.css" />
   </head>
@@ -52,112 +57,113 @@
     <main>
       <!-- Section portfolio -->
       <section>
-        <h1 hidden>List of works portfolio</h1>
-        <!-- List with button -->
-        <ul class="list">
-          <li><button class="portfolio-btn" type="button">All</button></li>
-          <li>
-            <button class="portfolio-btn" type="button">Web Site</button>
-          </li>
-          <li><button class="portfolio-btn" type="button">App</button></li>
-          <li><button class="portfolio-btn" type="button">Design</button></li>
-          <li>
-            <button class="portfolio-btn" type="button">Marketing</button>
-          </li>
-        </ul>
-
-        <ul class="list">
-          <li>
-            <a class="link" href="">
-              <img
-                src="./images/portfolio/img1.jpg"
-                alt="App for banking"
-                width="360" />
-              <h2 class="portfolio-title">Banking App Interface Concept</h2>
-              <p class="portfolio-text">App</p>
-            </a>
-          </li>
-          <li>
-            <a class="link" href="">
-              <img
-                src="./images/portfolio/img2.jpg"
-                alt="payment for the product via NFC"
-                width="360" />
-              <h2 class="portfolio-title">Cashless Payment</h2>
-              <p class="portfolio-text">Marketing</p>
-            </a>
-          </li>
-          <li>
-            <a class="link" href="">
-              <img
-                src="./images/portfolio/img3.jpg"
-                alt="laptop and phone on a gray background"
-                width="360" />
-              <h2 class="portfolio-title">Meditation App</h2>
-              <p class="portfolio-text">App</p>
-            </a>
-          </li>
-          <li>
-            <a class="link" href="">
-              <img
-                src="./images/portfolio/img4.jpg"
-                alt="the steering wheel and dashboard of the car"
-                width="360" />
-              <h2 class="portfolio-title">Taxi Service</h2>
-              <p class="portfolio-text">Marketing</p>
-            </a>
-          </li>
-          <li>
-            <a class="link" href="">
-              <img
-                src="./images/portfolio/img5.jpg"
-                alt="a phone with a moon screen saver"
-                width="360" />
-              <h2 class="portfolio-title">Screen Illustrations</h2>
-              <p class="portfolio-text">Design</p>
-            </a>
-          </li>
-          <li>
-            <a class="link" href="">
-              <img
-                src="./images/portfolio/img6.jpg"
-                alt="a girl in a hat, orange glasses and a sweater communicates via video communication"
-                width="360" />
-              <h2 class="portfolio-title">Online Courses</h2>
-              <p class="portfolio-text">Marketing</p>
-            </a>
-          </li>
-          <li>
-            <a class="link" href="">
-              <img
-                src="./images/portfolio/img7.jpg"
-                alt="content for filling Instagram stories"
-                width="360" />
-              <h2 class="portfolio-title">Instagram Stories Concept</h2>
-              <p class="portfolio-text">Design</p>
-            </a>
-          </li>
-          <li>
-            <a class="link" href="">
-              <img
-                src="./images/portfolio/img8.jpg"
-                alt="a woman carries a transparent mesh bag with vegetables and fruits"
-                width="360" />
-              <h2 class="portfolio-title">Organic Food</h2>
-              <p class="portfolio-text">Web Site</p>
-            </a>
-          </li>
-          <li>
-            <a class="link" href="">
-              <img
-                src="./images/portfolio/img9.jpg"
-                alt="cappuccino in a white cup"
-                width="360" />
-              <h2 class="portfolio-title">Fresh Coffee</h2>
-              <p class="portfolio-text">Web Site</p>
-            </a>
-          </li>
-        </ul>
+        <div class="container">
+          <h1 hidden>List of works portfolio</h1>
+          <!-- List with button -->
+          <ul class="list">
+            <li><button class="portfolio-btn" type="button">All</button></li>
+            <li>
+              <button class="portfolio-btn" type="button">Web Site</button>
+            </li>
+            <li><button class="portfolio-btn" type="button">App</button></li>
+            <li><button class="portfolio-btn" type="button">Design</button></li>
+            <li>
+              <button class="portfolio-btn" type="button">Marketing</button>
+            </li>
+          </ul>
+          <ul class="list">
+            <li>
+              <a class="link" href="">
+                <img
+                  src="./images/portfolio/img1.jpg"
+                  alt="App for banking"
+                  width="360" />
+                <h2 class="portfolio-title">Banking App Interface Concept</h2>
+                <p class="portfolio-text">App</p>
+              </a>
+            </li>
+            <li>
+              <a class="link" href="">
+                <img
+                  src="./images/portfolio/img2.jpg"
+                  alt="payment for the product via NFC"
+                  width="360" />
+                <h2 class="portfolio-title">Cashless Payment</h2>
+                <p class="portfolio-text">Marketing</p>
+              </a>
+            </li>
+            <li>
+              <a class="link" href="">
+                <img
+                  src="./images/portfolio/img3.jpg"
+                  alt="laptop and phone on a gray background"
+                  width="360" />
+                <h2 class="portfolio-title">Meditation App</h2>
+                <p class="portfolio-text">App</p>
+              </a>
+            </li>
+            <li>
+              <a class="link" href="">
+                <img
+                  src="./images/portfolio/img4.jpg"
+                  alt="the steering wheel and dashboard of the car"
+                  width="360" />
+                <h2 class="portfolio-title">Taxi Service</h2>
+                <p class="portfolio-text">Marketing</p>
+              </a>
+            </li>
+            <li>
+              <a class="link" href="">
+                <img
+                  src="./images/portfolio/img5.jpg"
+                  alt="a phone with a moon screen saver"
+                  width="360" />
+                <h2 class="portfolio-title">Screen Illustrations</h2>
+                <p class="portfolio-text">Design</p>
+              </a>
+            </li>
+            <li>
+              <a class="link" href="">
+                <img
+                  src="./images/portfolio/img6.jpg"
+                  alt="a girl in a hat, orange glasses and a sweater communicates via video communication"
+                  width="360" />
+                <h2 class="portfolio-title">Online Courses</h2>
+                <p class="portfolio-text">Marketing</p>
+              </a>
+            </li>
+            <li>
+              <a class="link" href="">
+                <img
+                  src="./images/portfolio/img7.jpg"
+                  alt="content for filling Instagram stories"
+                  width="360" />
+                <h2 class="portfolio-title">Instagram Stories Concept</h2>
+                <p class="portfolio-text">Design</p>
+              </a>
+            </li>
+            <li>
+              <a class="link" href="">
+                <img
+                  src="./images/portfolio/img8.jpg"
+                  alt="a woman carries a transparent mesh bag with vegetables and fruits"
+                  width="360" />
+                <h2 class="portfolio-title">Organic Food</h2>
+                <p class="portfolio-text">Web Site</p>
+              </a>
+            </li>
+            <li>
+              <a class="link" href="">
+                <img
+                  src="./images/portfolio/img9.jpg"
+                  alt="cappuccino in a white cup"
+                  width="360" />
+                <h2 class="portfolio-title">Fresh Coffee</h2>
+                <p class="portfolio-text">Web Site</p>
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 

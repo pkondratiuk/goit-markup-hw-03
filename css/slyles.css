@@ -109,6 +109,9 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .nav-list:hover,
@@ -124,6 +127,9 @@ ul {
 
 .adress-list {
   color: #434455;
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .adress-list:hover,
@@ -337,4 +343,9 @@ ul {
 .logo-footer {
   display: inline-block;
   margin-bottom: 16px;
+}
+
+.section-portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
