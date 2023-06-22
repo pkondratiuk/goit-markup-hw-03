@@ -26,6 +26,9 @@ img {
   max-width: 100%;
   height: auto;
 }
+ul {
+  padding-left: 0;
+}
 
 .title-block {
   font-weight: 700;
@@ -59,8 +62,6 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  display: inline-block;
-  margin-bottom: 18px;
 }
 
 .container {
@@ -90,8 +91,7 @@ img {
   |============================
 */
 
-header {
-  padding: 24px 0;
+.header {
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -219,7 +219,7 @@ header {
   gap: 24px;
 }
 .card-future-item {
-  flex-basis: calc((100% - 3 * 24px) / 4);
+  flex-basis: calc((100%-3 * 24px) / 4);
 }
 
 /**
@@ -333,4 +333,8 @@ header {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--popular-text-cl);
+}
+.logo-footer {
+  display: inline-block;
+  margin-bottom: 18px;
 }
