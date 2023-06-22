@@ -9,6 +9,9 @@
   --btn-cl: #4d5ae5;
   --btn-bg-cl: #f4f4fd;
   --title-cl: #2e2f42;
+  --items: 4;
+  --ident: 24px;
+  --ident-c: 48px;
 }
 
 body {
@@ -20,6 +23,11 @@ body {
   background-color: var(--bgcl-general);
   letter-spacing: 0.02em;
   color: var(--popular-text-cl);
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .title-block {
@@ -36,6 +44,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--title-cl);
+  margin: 0;
 }
 
 .link {
@@ -59,6 +68,21 @@ body {
   width: 1128px;
   margin: 0 auto;
   padding: 0 15px;
+}
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/* Flex */
+
+.card-set {
+  display: flex;
+  gap: var(--ident);
+}
+
+.card-set-item: {
+  flex-basis: calc(100%-var(--indent) * (var(--item) - 1) / var(--item));
 }
 
 /**
@@ -134,6 +158,8 @@ body {
 */
 .hero {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .hero-title {
   font-weight: 700;
@@ -142,6 +168,9 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 .hero-btn {
   font-family: "Roboto", sans-serif;
@@ -151,6 +180,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   background-color: #4d5ae5;
+  min-width: 169px;
+  min-height: 56px;
+  padding: 16 32;
+  display: block;
+  margin: 0 auto;
 }
 
 .hero-btn:hover,
@@ -166,9 +200,11 @@ body {
 */
 
 .text-future {
-  padding: 120px 0;
   letter-spacing: 0.02em;
+  margin: 0 auto;
+  padding: 0 auto;
 }
+.
 
 /**
   |============================
@@ -177,6 +213,9 @@ body {
 */
 .title-do {
   text-transform: capitalize;
+  margin-bottom: 72px;
+}
+.do-container {
 }
 /**
   |============================
@@ -198,6 +237,7 @@ body {
 .list-title {
   background-color: #ffffff;
 }
+
 /**
   |============================
   | Styles footer
