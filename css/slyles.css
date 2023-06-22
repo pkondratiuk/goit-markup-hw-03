@@ -30,6 +30,28 @@ img {
 ul {
   padding-left: 0;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 .title-block {
   font-weight: 700;
@@ -244,7 +266,7 @@ ul {
   gap: 24px;
 }
 .card-do-item {
-  lex-basis: calc((100% - 3 * 24px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 /**
@@ -363,4 +385,20 @@ ul {
 
 .portfolio-btn-item {
   padding: 12px 24px;
+}
+.works-container {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.list-works-item {
+  flex-basis: calc((100% - 2 * 24px) / 3);
+}
+
+.protfolio-works {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
