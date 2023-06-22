@@ -9,6 +9,7 @@
   --btn-cl: #4d5ae5;
   --btn-bg-cl: #f4f4fd;
   --title-cl: #2e2f42;
+  --btn-cl-border: #e7e9fc;
 }
 
 body {
@@ -313,6 +314,8 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.04em;
   background-color: var(--btn-bg-cl);
+  border: 1px solid var(--btn-cl-border);
+  border-radius: 4px;
 }
 
 .portfolio-btn:hover,
@@ -320,6 +323,7 @@ ul {
   color: #ffffff;
   background-color: #404bbf;
   cursor: pointer;
+  border: 1px solid transparent;
 }
 
 .portfolio-title {
@@ -348,4 +352,15 @@ ul {
 .section-portfolio {
   padding-top: 96px;
   padding-bottom: 120px;
+}
+
+.btn-container-port {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-bottom: 72px;
+}
+
+.portfolio-btn-item {
+  padding: 12px 24px;
 }
