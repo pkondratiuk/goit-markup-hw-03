@@ -56,11 +56,9 @@ body {
 }
 
 .container {
-  width: 1158px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 16px;
-  padding-right: 16px;
+  width: 1128px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 /**
@@ -68,6 +66,7 @@ body {
   | Header styles
   |============================
 */
+
 .web {
   color: #4d5ae5;
 }
@@ -106,8 +105,8 @@ body {
 
 .header-container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
 .nav-container {
   display: flex;
@@ -117,6 +116,15 @@ body {
   display: flex;
   align-items: center;
   gap: 40px;
+}
+
+.adress-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.logo-containerg {
+  margin-right: 76px;
 }
 
 /**
@@ -158,6 +166,7 @@ body {
 */
 
 .text-future {
+  padding: 120px 0;
   letter-spacing: 0.02em;
 }
 
