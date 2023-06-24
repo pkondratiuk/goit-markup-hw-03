@@ -29,6 +29,7 @@ img {
 }
 ul {
   padding-left: 0;
+  margin: 0;
 }
 h1,
 h2,
@@ -215,7 +216,7 @@ p {
   background-color: #4d5ae5;
   min-width: 169px;
   min-height: 56px;
-  padding: 16 32;
+  padding: 16px 32px;
   display: block;
   margin: 0 auto;
   border: none;
@@ -269,6 +270,10 @@ p {
   flex-basis: calc((100% - 2 * 24px) / 3);
 }
 
+.section-do {
+  padding-top: 0;
+}
+
 /**
   |============================
   | Styles section team
@@ -320,6 +325,7 @@ p {
 
 .text-footer {
   color: #f4f4fd;
+  width: 264px;
 }
 
 /**
